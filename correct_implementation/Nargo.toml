@@ -1,0 +1,8 @@
+[package]
+name = "working_secp256k1"
+version = "1.0.0-beta.6"
+type = "bin"
+authors = ["Noir enthousiast"]
+
+[dependencies]
+keccak256 = { tag = "v0.1.0", git = "https://github.com/noir-lang/keccak256" }
